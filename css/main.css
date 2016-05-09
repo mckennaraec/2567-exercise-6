@@ -430,8 +430,75 @@ figure {
 
 
 
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 768px) {
+
+img {
+	max-width: 260%;
+}
+
+nav li  {
+	display:inline-block;
+	list-style: none;
+	padding: 0 20px;
+    font-weight: 700;
+	font-size: 1rem;
+	line-height: 23px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding:3px;
+}
 	
+h1 {
+    font-size: 5.5rem;
+    line-height: 5rem;
+    text-align: left;
+    padding: 20px;
+}
+
+.col-1-1 {
+	width: 100%;
+	margin-top: 20px;
+}
+ 
+.col-1-4:last-child {
+	width: 100%;
+	margin-top: 20px;
+	padding-right: 30px;
+}
+
+	
+#services section div {
+	background-color: #1c7897;
+	padding:20px 10px;
+	margin-left: 25px;
+}
+	
+input, textarea {
+	background-color: #19896e;
+	width: 100%;
+	padding: 10px 70px 10px 10px;
+	border:1px solid #19896e;
+}
+
+input {
+	background-color: #19896e;
+	width: 100%;
+	padding: 10px 60px 10px 10px;
+	border:1px solid #19896e;
+}
+
+.col-1-2 {
+	width: 85%;	
+}
+	
+#map {
+	height: 200px;
+	margin-top:30px;
+	width: 100%;
+}
 	
 }
